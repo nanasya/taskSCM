@@ -2,25 +2,17 @@
 <html>
 <head>
 <style>
-.p1 {
-  font-family: "Times New Roman", Times, serif;
-}
-
-.p2 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.p3 {
-  font-family: "Lucida Console", "Courier New", monospace;
+a {
+  color: hotpink;
 }
 </style>
 </head>
 <body>
 
-<h1>CSS font-family</h1>
-<p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
-<p class="p2">This is a paragraph, shown in the Arial font.</p>
-<p class="p3">This is a paragraph, shown in the Lucida Console font.</p>
+<h2>Style a link with a color</h2>
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
 
 </body>
 </html>
+
