@@ -2,18 +2,22 @@
 <html>
 <head>
 <style>
-p.dotted {border-style: dotted;}
-p.dashed {border-style: dashed;}
-
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
 </style>
 </head>
 <body>
 
-<h2>The border-style Property</h2>
-<p>This property specifies what kind of border to display:</p>
+<h2>Demonstrating the Box Model</h2>
 
-<p class="dotted">A dotted border.</p>
-<p class="dashed">A dashed border.</p>
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div>ILP Selandar</div>
 
 </body>
 </html>
