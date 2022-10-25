@@ -1,31 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-table, th, td {
-  border: 1px solid;
-}
-</style>
-</head>
 <body>
 
-<h2>Add a border to a table:</h2>
-
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-  </tr>
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-  </tr>
-  <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-  </tr>
-</table>
+<p style="border: 1px solid black">Hello World</p>
+<div style="border: 1px solid black">Hello World</div>
 
 </body>
 </html>
-
